@@ -8,6 +8,6 @@ class Work05 {
         int c = 6;
         int d = 2;
         
-        Console.WriteLine( (a + b ) / ( c - d ) );
+        
     }
 }
