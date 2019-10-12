@@ -5,8 +5,6 @@ class Work12 {
     {
         string[] data = {"ミッキー","ミニー","ドナルド"};
         
-        foreach(string name in data) {
-            Console.WriteLine(name);
-        }
+        
     }
 }
