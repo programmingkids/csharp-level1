@@ -2,7 +2,7 @@
 
 echo " -- Install .Net Core -- "
 sudo yum -y install libunwind
-curl -O https://dot.net/v1/dotnet-install.sh
+curl -L -O https://dot.net/v1/dotnet-install.sh
 sudo chmod u=rx dotnet-install.sh
 ./dotnet-install.sh -c Current
 echo " -- .Net Core is installed -- "
