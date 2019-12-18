@@ -25,4 +25,9 @@ class Character
         Console.WriteLine("魔法:" + this.mp);
         Console.WriteLine("----");
     }
+    
+    public void attack()
+    {
+        Console.WriteLine(this.name + "は攻撃した");
+    }
 }
