@@ -18,10 +18,10 @@ cat << EOM >> ~/environment/.c9/runners/.NETCore.run
 {
   "script": [
     "dotnet clean --verbosity minimal",
-    "env StartupObject=$file_base_name dotnet run"
+    "env StartupObject=\$file_base_name dotnet run"
   ],
-  "info": "Building $file_name and running $file_base_name",
-  "working_dir" : "$file_path",
+  "info": "Building \$file_name and running \$file_base_name",
+  "working_dir" : "\$file_path",
   "selector": "source.cs",
   "trackId": "CSharp"
 }
