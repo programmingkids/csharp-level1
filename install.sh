@@ -27,6 +27,6 @@ cat << EOM >> ~/environment/.c9/runners/.NETCore.run
 }
 EOM
 
-rm dotnet-install.sh
+rm -rf dotnet-install.sh
 
 echo " -- Setting is completed -- "
